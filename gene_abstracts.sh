@@ -8,6 +8,9 @@
 INPUT=$1
 PDIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
+echo ">>> $INPUT
+"
+
 awk -v INPUT=$INPUT '$3 == INPUT' <(zcat $PDIR/data/Homo_sapiens.gene_info) \
 	| cut -f 2 \
 	| while read line; do awk -v LINE=$line '$1 == "9606" && $2 == LINE' <(zcat $PDIR/data/gene2pubmed); done \
