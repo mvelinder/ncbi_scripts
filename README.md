@@ -1,5 +1,5 @@
 # ncbi_scripts
-simple scripts for command line querying of pubmed and clinvar via various inputs
+simple scripts for command line querying ncbi resources like pubmed and clinvar via various inputs
 
 ## Usage
 `head` each script for clarification on usage
