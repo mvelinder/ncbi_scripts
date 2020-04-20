@@ -1,4 +1,4 @@
-# pubmed_scripts
+# ncbi_scripts
 simple scripts for querying pubmed and clinvar via various inputs
 
 ## Usage
