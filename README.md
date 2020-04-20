@@ -165,4 +165,4 @@ $ bash rsid_clinsig.sh rs4987049
 ```
 
 ## Considerations
-scripts are parsing web pages (probably a bad idea), they could break if source page code changes
+scripts are parsing web pages via curl (probably a bad idea), they could break if source page code changes
