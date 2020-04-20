@@ -3,6 +3,8 @@
 # where $RSID is a dbSNP rsID like rs1800751
 # Example: bash rsid_clinsig.sh rs1800751
 
+
+
 INPUT=$1
 
 echo "
