@@ -12,7 +12,7 @@ $ head gene_abstracts.sh
 # Example: bash gene_abstracts.sh BRCA1
 ```
 
-## Example
+## Examples
 get titles and abstracts for the gene EBF3 using `gene_abstracts.sh`
 
 ```
