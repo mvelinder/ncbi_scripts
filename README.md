@@ -14,4 +14,4 @@ $ head gene_abstracts.sh
 ```
 
 ## Considerations
-scripts are parsing web pages, could break if source page code changes
+scripts are parsing web pages (probably a bad idea), they could break if source page code changes
