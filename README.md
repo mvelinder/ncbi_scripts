@@ -13,7 +13,7 @@ $ head gene_abstracts.sh
 ```
 
 ## Example
-get titles and abstracts for the gene GFI1
+get titles and abstracts for the gene EBF3 using `gene_abstracts.sh`
 
 ```
 (base) [u0691312@redwood5:ncbi_scripts]$ bash gene_abstracts.sh EBF3
@@ -107,7 +107,7 @@ Title: Associations of Pulmonary Fibrosis with Peripheral Blood Th1/Th2 Cell Imb
 Abstract: Background/Aims Pigeon breeder's lung (PBL) results from Th1/Th2 cell imbalance. B cells inhibit the immune activity of Th1, and EBF3 is a key B cell factor. This study explored the relationship between EBF3 and Th1/Th2 imbalance in chronic PBL cases complicated with pulmonary fibrosis (PF). Methods Twenty Uygur PBL+PF patients, 20 pigeon breeders without PBL or PF, and 20 healthy individuals without pigeon breeding history constituted the patient I, negative control, and normal control groups, respectively. Peripheral blood specimens and case backgrounds were collected between June 2016 and March 2017. EBF3 gene methylation was analyzed by matrix assisted laser desorption ionization-time of flight mass spectrometry. To compare different mechanisms of PF progression in PBL, samples from 20 Uygur PBL patients without PF (at acute and sub-acute stages) were collected between October 2017 and February 2018, constituting the patient II group. EBF3 mRNA expression was evaluated by real-time polymerase chain reaction. IFN-γ, IL-4 and IL-10 expression and Th1/Th2 imbalance in PBL were evaluated by enzyme-linked immunosorbent assay and flow cytometry. Results CpG-2 and general methylation rates in the patient I group were lower than those in the control groups (P˂0.017). The level of EBF3 mRNA expression in the patient I group was significantly higher than that in any other group. Compared with the control groups, the patient I group showed a significantly higher level of IL-4, whereas the patient II group showed a significantly lower level. IL-10 was also expressed more highly in the patient I group than in any other group (P&lt; 0.01). Flow cytometry showed INF-γ dominance (Th1 cytokine) in PBL at the acute/sub-acute stage and IL-4 dominance (Th2 cytokine) at the chronic stage after PF occurred. The general methylation rate was negatively correlated with the mRNA level, with the latter being positively correlated with the IL-10 level and number of pigeons bred in the past 3 months. IL-4 expression was negatively correlated with INF-γ but positively correlated with PF area and duration of pigeon breeding history. Conclusions After PF occurs in chronic PBL, the inflammation type changes from Th1 dominance to Th2 dominance. During PBL development, IL-10 increases before IL-4 does, which may be associated with EBF3 hypomethylation and the involvement of B lymphocytes.
 ```
 
-get clinical significance assertion for rsID rs4987049 
+get clinical significance assertion for rsID rs4987049 using `rsid_clinsig.sh` 
 
 ```
 $ bash rsid_clinsig.sh rs4987049
