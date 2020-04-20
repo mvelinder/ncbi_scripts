@@ -16,7 +16,7 @@ $ head gene_abstracts.sh
 get titles and abstracts for the gene EBF3 using `gene_abstracts.sh`
 
 ```
-(base) [u0691312@redwood5:ncbi_scripts]$ bash gene_abstracts.sh EBF3
+$ bash gene_abstracts.sh EBF3
 >>> EBF3
 
 Title: Initial assessment of human gene diversity and expression patterns based upon 83 million nucleotides of cDNA sequence.
